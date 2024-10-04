@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import Header from './components/Header/Header';
 import CoreConcept from './components/CoreConcepts/CoreConcepts';
+import TabButton from './components/TabButton/TabButton';
+
 import './App.css';
 import { CORE_CONCEPTS } from './data';
 
@@ -21,6 +23,12 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[2]} />
             <CoreConcept {...CORE_CONCEPTS[3]} />
           </ul>
+        </section>
+        <section id="examples">
+          <h2>examples</h2>
+          <menu>
+            <TabButton>Components</TabButton>
+          </menu>
         </section>
       </main>
     </div>
