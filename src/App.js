@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import { useState } from 'react';
 import Header from './components/Header/Header';
-import CoreConcept from './components/CoreConcepts/CoreConcepts';
+import CoreConcept from './components/CoreConcept/CoreConcept';
 import TabButton from './components/TabButton/TabButton';
 
 import './App.css';
